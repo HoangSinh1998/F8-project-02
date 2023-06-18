@@ -1,0 +1,388 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Sen", sans-serif;
+  font-size: 1.6rem;
+}
+html {
+  font-size: 62.5%;
+}
+/* Common */
+.content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.dark-text {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #171100;
+}
+.btn {
+  min-width: 144px;
+  height: 50px;
+  background: #171100;
+  border-radius: 24.5px;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.yelow-btn {
+  width: 180px;
+  height: 64px;
+  background: #ffb900;
+  line-height: 64px;
+  border-radius: 32px;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.mt-38 {
+  margin-top: 38px;
+}
+.mt-16 {
+  margin-top: 16px;
+}
+.mb-22 {
+  margin-bottom: 22px;
+}
+
+.align-center {
+  align-items: center;
+}
+/* Header */
+.header {
+  padding-top: 36px;
+  background-color: #fffcf4;
+}
+
+.header .menu-btn {
+  position: relative;
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.header .menu-btn::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 2px;
+  top: 35px;
+  left: 37px;
+  background: #171100;
+  border-radius: 1px;
+}
+.header .row {
+  justify-content: space-between;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header .btn {
+  margin-left: auto;
+}
+.header ul a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #5f5b53;
+  padding: 5px 5px;
+  margin-left: 32px;
+}
+.header ul li:first-child {
+  font-weight: 600;
+}
+/* BODYYYY */
+.body {
+  padding-top: 64px;
+  background-color: #fffcf4;
+  padding-bottom: 65px;
+}
+
+.body .img-block {
+  width: 50%;
+  position: relative;
+}
+.body .image {
+  width: 470px;
+  height: 685px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.body .title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5.8rem;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  color: #171100;
+  width: 470px;
+}
+.body .desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 30px;
+  margin-top: 22px;
+  color: #5f5b53;
+  width: 470px;
+}
+.body .fist-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+.body .info {
+  /* width: 50%; */
+  padding-top: 64px;
+  display: block;
+  margin-left: auto;
+}
+.body .watch {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #171100;
+}
+.body .play-btn {
+  margin-top: 10px;
+  margin-left: 28px;
+  margin-right: 10px;
+}
+.body .sub-desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 30px;
+  margin-top: 40px;
+  color: #5f5b53;
+  width: 470px;
+}
+.body .value {
+  display: flex;
+  align-items: first baseline;
+}
+.body .numb {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 5.8rem;
+  letter-spacing: -0.02em;
+  color: #171100;
+  margin-right: 20px;
+}
+.body .label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 30px;
+  margin-top: 40px;
+  color: #5f5b53;
+}
+.body .tab {
+  position: absolute;
+  width: 270px;
+  height: 244px;
+  bottom: 48px;
+  right: 0;
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px 28px;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+.body .tab-label {
+  margin-left: 16px;
+}
+.body .name {
+  margin-top: 8px;
+}
+/* Courses */
+
+.courses {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.courses .title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: -0.02em;
+
+  color: #171100;
+}
+.courses .desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5f5b53;
+  margin-top: 16px;
+  width: 460px;
+}
+.courses .courses-btn {
+  margin-left: auto;
+  margin-top: 40px;
+}
+.courses .img-courses {
+  width: 370px;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+}
+.list-courses {
+  margin-top: 55px;
+}
+.list-courses .row {
+  gap: 30px;
+}
+.list-courses .info {
+  padding: 16px 22px;
+}
+.list-courses .desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #5f5b53;
+  width: 326px;
+}
+.list-courses .courses-star {
+  margin-left: auto;
+}
+.list-courses .point {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fea31b;
+}
+.list-courses .yelow-btn {
+  width: 118px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: auto;
+}
+.courses-item {
+  box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+/* qoutes */
+.qoutes {
+  width: 100%;
+  height: 380px;
+  background: #2e2100;
+}
+.qoutes .img-qoutes {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 999px;
+}
+.qoutes .info {
+  padding: 96px 0 0 0;
+  width: 30%;
+}
+.qoutes .name {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #f7f7f7;
+  margin-top: 18px;
+}
+.qoutes .desc {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  color: #bfbcb3;
+  margin-top: 10px;
+}
+.qoutes .info .dot {
+  margin-top: 28px;
+}
+.qoutes .qoutes-desc {
+  position: relative;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  color: #ffffff;
+  width: 740px;
+  margin-left: auto;
+  margin-top: 124px;
+}
+.qoutes .dot-qoutes {
+  position: absolute;
+  top: -25px;
+  left: -35px;
+}
+/* Adver */
+.adver {
+  padding: 200px 0;
+}
+.adver .img-block {
+  width: 50%;
+  display: flex;
+  border-radius: 16px;
+  gap: 30px;
+}
+.adver .adv-img {
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.adver .adv-img:first-child {
+  margin-top: 30px;
+}
+.adver .info {
+  margin-left: auto;
+}
+.adver .title {
+  margin-top: 58px;
+
+  width: 470px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  color: #171100;
+}
+.adver .desc {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5f5b53;
+  width: 460px;
+  margin-top: 16px;
+}
+.adver .btn {
+  background: #ffb900;
+  border-radius: 26px;
+  width: 137px;
+  height: 50px;
+  margin-top: 32px;
+}
+.adver .row {
+  justify-content: space-between;
+}
